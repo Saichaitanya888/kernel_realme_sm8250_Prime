@@ -1515,13 +1515,13 @@ board_temp-usr {
 			};
 
 			modem_trip_pa2_1: modem_trip_pa2_1 {
-				temperature = <45000>;
+				temperature = <44000>;
 				hysteresis = <4000>;
 				type = "passive";
 			};
 
 			modem_trip_pa2_2: modem_trip_pa2_2 {
-				temperature = <60000>;
+				temperature = <50000>;
 				hysteresis = <4000>;
 				type = "hot";
 			};
@@ -1634,13 +1634,13 @@ board_temp-usr {
 			};
 
 			modem_trip1: modem-trip1 {
-				temperature = <46000>;
+				temperature = <44000>;
 				hysteresis = <4000>;
 				type = "passive";
 			};
 
 			modem_trip2: modem-trip2 {
-				temperature = <60000>;
+				temperature = <50000>;
 				hysteresis = <4000>;
 				type = "hot";
 			};
