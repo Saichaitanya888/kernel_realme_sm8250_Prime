@@ -92,7 +92,6 @@
 			qcom,chg-term-src = <1>;
 			qcom,charger-temp-max = <800>;
 			qcom,smb-temp-max = <800>;
-			qcom,oplus-pps-usbpd-detection = <&pm8150b_pdphy>;
 			status = "disabled";
 
 			qcom,chgr@1000 {
@@ -400,14 +399,6 @@
 			bat_id@4b {
 				reg = <ADC_BAT_ID_PU2>;
 				label = "bat_id";
-				qcom,ratiometric;
-				qcom,hw-settle-time = <200>;
-				qcom,pre-scaling = <1 1>;
-			};
-
-			bat_therm {
-				reg = <ADC_BAT_THERM_PU2>;
-				label = "bat_therm";
 				qcom,ratiometric;
 				qcom,hw-settle-time = <200>;
 				qcom,pre-scaling = <1 1>;
