@@ -35,7 +35,7 @@ cd anykernel || exit 1
     cp ../out/arch/arm64/boot/Image .
     cp ../out/arch/arm64/boot/dtbo.img .
     cp ../out/arch/arm64/boot/dtb .
-    zip -r9 Phoenix-Reborn-OOS-${DT}.zip *
+    zip -r9 Phoenix-Reborn-${DT}.zip *
     rm Image dtbo.img dtb
     cd ..
 }
