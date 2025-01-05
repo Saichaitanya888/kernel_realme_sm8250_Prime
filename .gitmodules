@@ -1,3 +1,7 @@
 [submodule "KernelSU-Next"]
 	path = KernelSU-Next
 	url = https://github.com/rifsxd/KernelSU-Next
+
+[submodule "tc"]
+	path = tc
+	url = https://gitlab.com/yograjfire18/clang
