@@ -141,4 +141,5 @@ kernel/configs/android-*.cfg
 buildkernel.sh
 out
 *.zip
-
+anykernel/
+*.log
