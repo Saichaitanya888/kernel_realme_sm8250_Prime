@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo Cloning AnyKernel
-git clone https://github.com/Athi07/AnyKernel3.git --depth=1 anykernel
+git clone https://github.com/Saichaitanya888/AnyKernel3.git --depth=1 anykernel
 
 DT=$(date +"%Y%m%d-%H%M")
 config=vendor/sm8250_defconfig
@@ -35,7 +35,7 @@ cd anykernel || exit 1
     cp ../out/arch/arm64/boot/Image .
     cp ../out/arch/arm64/boot/dtbo.img .
     cp ../out/arch/arm64/boot/dtb .
-    zip -r9 Phoenix-Reborn-${DT}.zip *
+    zip -r9 Sai-CLO-Kernel-${DT}.zip *
     rm Image dtbo.img dtb
     cd ..
 }
