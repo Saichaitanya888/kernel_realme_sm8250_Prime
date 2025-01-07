@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo Cloning AnyKernel
-git clone https://github.com/Saichaitanya888/AnyKernel3.git --depth=1 anykernel
+git clone https://github.com/Athi07/AnyKernel3.git --depth=1 anykernel
 
 DT=$(date +"%Y%m%d-%H%M")
 config=vendor/sm8250_defconfig
